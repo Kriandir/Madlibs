@@ -165,7 +165,7 @@ public class Inputstory extends AppCompatActivity {
     /* reset the text
      */
     public void resetText(){
-
+        
         placeholder.setText(getString(R.string.placeholders));
         placeholdercount.setText(getString(R.string.placeholderscount));
     }

@@ -8,16 +8,16 @@
     <TextView android:text="@string/welcome" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="46sp"
+        android:id="@+id/textView2"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp" />
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:background="@mipmap/madlibs"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -32,5 +32,15 @@
         android:layout_alignLeft="@+id/imageView"
         android:layout_alignStart="@+id/imageView"
         android:onClick="onbuttonClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/explaination"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
 
 </RelativeLayout>
